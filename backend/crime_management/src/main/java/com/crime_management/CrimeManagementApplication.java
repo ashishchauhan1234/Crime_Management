@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.crime_management;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CaseApplication {
+public class CrimeManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CaseApplication.class, args);
+		SpringApplication.run(CrimeManagementApplication.class, args);
 	}
 
 }
