@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FIRs — CIMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="firInit()">
+  <header class="topbar">
+    <div class="brand">CIMS</div>
+    <nav class="nav"><a href="dashboard.html">Dashboard</a><a href="criminals.html">Criminals</a><a onclick="logout()" href="index.html">Logout</a></nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>New FIR</h2>
+      <form onsubmit="submitFIR(this); return false;" class="form">
+        <label for="fir-date">Date & Time</label><input id="fir-date" name="fir_date" type="datetime-local" required>
+        <label for="fir-complainant">Complainant Name</label><input id="fir-complainant" name="fir_complainant" required>
+        <label for="fir-type">Crime Type</label><input id="fir-type" name="fir_type" required>
+        <label for="fir-location">Location</label><input id="fir-location" name="fir_location" required>
+        <label for="fir-desc">Description</label><textarea id="fir-desc" name="fir_desc"></textarea>
+
+        <div class="form-actions">
+          <button class="btn" type="submit">Save FIR</button>
+          <a class="btn outline" href="dashboard.html">Cancel</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>All FIRs</h3>
+      <table id="firTable" class="table">
+        <thead><tr><th>ID</th><th>Date</th><th>Complainant</th><th>Type</th><th>Location</th><th>Status</th><th>Action</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
