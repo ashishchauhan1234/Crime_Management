@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login — CIMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">CIMS</div>
+    <nav class="nav"><a href="index.html">Home</a><a href="register.html">Register</a></nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Login</h2>
+      <form id="loginForm" onsubmit="loginHandler(this); return false;" class="form">
+        <label for="login-username">Username</label><input id="login-username" required>
+        <label for="login-password">Password</label><input id="login-password" type="password" required>
+        <div class="form-actions">
+          <button class="btn" type="submit">Login</button>
+          <a class="btn outline" href="index.html">Back</a>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

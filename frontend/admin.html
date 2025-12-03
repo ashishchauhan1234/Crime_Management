@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin — CIMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="adminInit()">
+  <header class="topbar">
+    <div class="brand">CIMS - Admin</div>
+    <nav class="nav"><a href="dashboard.html">Dashboard</a><a onclick="logout()" href="index.html">Logout</a></nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Users</h2>
+      <table id="userTable" class="table">
+        <thead><tr><th>Username</th><th>Name</th><th>Role</th><th>Action</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

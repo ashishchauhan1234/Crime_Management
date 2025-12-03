@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dashboard — CIMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="dashboardInit()">
+  <header class="topbar">
+    <div class="brand">CIMS</div>
+    <nav class="nav">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="fir.html">FIRs</a>
+      <a href="criminals.html">Criminals</a>
+      <a href="search.html">Search</a>
+      <a class="admin-only" style="display:none" href="admin.html">Admin</a>
+      <a onclick="logout()" href="index.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="container layout">
+    <aside class="sidebar card">
+      <h3>Quick Links</h3>
+      <div class="linklist">
+        <a href="fir.html">New FIR</a>
+        <a href="criminals.html">Add Criminal</a>
+        <a href="search.html">Search</a>
+        <a href="about.html">Help</a>
+      </div>
+    </aside>
+
+    <section style="flex:1">
+      <div class="card" id="welcome">
+        <h2>Welcome</h2>
+        <p id="welcome-name"></p>
+      </div>
+
+      <div class="grid cols-3">
+        <div class="card"><h3>Total FIRs</h3><p id="total-fir">0</p></div>
+        <div class="card"><h3>Total Criminals</h3><p id="total-crim">0</p></div>
+        <div class="card"><h3>Users</h3><p id="total-users"><span class="small-muted">view admin</span></p></div>
+      </div>
+
+      <div class="card">
+        <h3>Recent FIRs</h3>
+        <ul id="recent-firs" class="small-muted"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© CIMS Demo</footer>
+  <script src="app.js"></script>
+</body>
+</html>
