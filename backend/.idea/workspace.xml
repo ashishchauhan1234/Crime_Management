@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc14c4b7-f870-48a7-880d-0ad44d8a1134" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crime_management/src/main/java/com/crime_management/controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/main/java/com/example/demo/CaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/test/java/com/example/demo/CaseApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/src/main/java/com/crime_management/CrimeManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crime_management/src/test/java/com/crime_management/CrimeManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -34,25 +41,71 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/crime_management/src/main/java/com/crime_management/CrimeManagementApplication.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36LWiaD59JSBHT0baVVucweGxQu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CrimeManagementApplication.executor": "Run",
+    "Maven.crime_management [clean,install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ac344/Workspace/projects/Crime Management/backend"
+    "last_opened_file_path": "C:/Users/ac344/Workspace/projects/Crime Management/backend/crime_management/src/main/java/com/crime_management/repository",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.crime_management.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ac344\Workspace\projects\Crime Management\backend\crime_management\src\main\java\com\crime_management\repository" />
+      <recent name="C:\Users\ac344\Workspace\projects\Crime Management\backend\crime_management\src\main\java\com\crime_management\model\controller" />
+      <recent name="C:\Users\ac344\Workspace\projects\Crime Management\backend\crime_management\src\main\java\com\crime_management/model" />
+      <recent name="C:\Users\ac344\Workspace\projects\Crime Management\backend\crime_management\src\main\java\com\crime_management\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.crime_management.security" />
+      <recent name="com.crime_management.dto" />
+      <recent name="com.crime_management.repository" />
+      <recent name="com.crime_management.domain" />
+      <recent name="com.crime_management.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CrimeManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crime_management.CrimeManagementApplication" />
+      <module name="crime_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crime_management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CrimeManagementApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bc14c4b7-f870-48a7-880d-0ad44d8a1134" name="Changes" comment="" />
